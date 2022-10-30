@@ -1,0 +1,95 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.tarjeta {
+    width: 30%;
+    margin: 100px auto;
+    width: 30%;
+    background-color: #afbb0a;
+    border-radius: 5px;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.tarjeta img {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    
+}
+
+.campo-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-texto .seleccion{
+    padding: 5px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.campo-texto .seleccion:focus{
+    outline: none;
+}
+
+.tarjeta .campo-texto input {
+    padding: 5px;
+    margin: 5px 0;
+    width: 60%;
+}
+
+.tarjeta .campo-texto input:focus {
+    outline: none;
+}
+
+.tarjeta .campo-texto h3 {
+    text-align: center;
+}
+
+.tarjeta .campo-texto button {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 158, 158);
+    box-shadow: 0 0 5px #000;
+}
+
+.respuesta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+.color-circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 5px;   
+}
+ 
+
+
